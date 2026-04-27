@@ -26,7 +26,7 @@ if actual_uv is not None:
         emoji="👌",
         font_size=65,            
         falling_speed=5,       
-        animation_length="5",   
+        animation_length="2",   
     )
     elif 3 < actual_uv < 7:
         st.write(f"The Max UV index for today is {actual_uv}. Man. Its getting bad. Make sure to put on SPF")
@@ -34,7 +34,7 @@ if actual_uv is not None:
         emoji="🧴",
         font_size=65,            
         falling_speed=5,        
-        animation_length="5",   
+        animation_length="2",   
     )
     elif 7 < actual_uv < 9:
         st.write(f"The Max UV index for today is {actual_uv}. THAT IS VERY BAD, DON'T GO OUTSIDE, STAY INSIDE AND BINGE OR SOMETHIN' IDK!!")
@@ -42,7 +42,7 @@ if actual_uv is not None:
         emoji="🥵",
         font_size=65,           
         falling_speed=5,        
-        animation_length="5",   
+        animation_length="2",   
     )
     else:
         st.write(f"The Max UV index for today is {actual_uv}. Is that even possible?!")
@@ -50,5 +50,5 @@ if actual_uv is not None:
         emoji="🤨",
         font_size=65,            
         falling_speed=5,         
-        animation_length="5",   
+        animation_length="2",   
         )
